@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>eTourist</title>
+  <link rel="stylesheet" type="text/css" href="jquery.fullPage.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+  <style>
+  /* Sections
+   * --------------------------------------- */
+  #section0 img,
+  #section1 img{
+    margin: 20px 0 0 0;
+  }
+  #section2 img{
+    margin: 20px 0 0 52px;
+  }
+  #section3 img{
+    bottom: 0px;
+    position: absolute;
+    margin-left: -420px;
+  }
+  .intro p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+
+  }
+  </style>
+
+  <script type="text/javascript" src="jquery.fullPage.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        sectionsColor: ['#1bbc9b'],
+        anchors: ['firstPage','secondPage'],
+        menu: '#menu',
+        scrollingSpeed: 1000
+      });
+    });
+  </script>
+  </head>
+  <body>
+
+  <ul id="menu">
+    <li data-menuanchor="firstPage"><a href="#firstPage">First slide</a></li>
+    <li data-menuanchor="secondPage"><a href="#firstPage">Second slide</a></li>
+  </ul>
+
+  <div id="fullpage">
+  	<div class="section " id="section0">
+      <div class="slide active">
+  		<h1>Test</h1>
+  		<p>Kell on 11, ees on pikk päev täis koolitööde tegemistega</p>
+    </div>
+  	</div>
+
+      <div class="section " id="section1">
+        <h1>Test2</h1>
+        <p>Kasutajaliidesed + filmiajalugu + algoritmid + prog põhikursus, oeh</p>
+      </div>
+    </div>
+
+</body>
+</html>
