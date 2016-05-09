@@ -1,0 +1,88 @@
+[
+
+{
+  class: "slide active",
+  section_class: "section",
+  content: [
+    	{
+        element: "h1",
+        content: "Test"
+      }
+  ]
+},
+{
+  class: "intro",
+  section_class: "section",
+  content: [
+    	{
+        element: "h1",
+        content: "Got to think of more things to add"
+      },
+      {
+        element: "p",
+        content: "This plugin is pretty awesome"
+      }
+  ]
+},
+{
+  class: "footer";
+  section_class: "section fp-auto-height",
+  content: [
+    {
+      element: "h1",
+      content: "Created by Martin Viidik"
+    },
+    {
+      element: "p",
+      content: "Created for User Interfaces of Web Applications course"
+    }
+  ]
+
+}
+
+]
+
+
+  <div id="fullpage">
+
+  	<div class="section " id="section0">
+      <div class="slide active">
+    		<h1>eTourist</h1>
+      </div>
+  	</div>
+
+    <div class="section moveDown" id="section1">
+
+      <div class="wrap">
+
+        <div class="imgsContainer">
+          <img src="graphics/eturist1.png" alt="phone" id="phone"/>
+        </div>
+
+        <div class="box">
+            <h1>Tallinn at your fingertips</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<p>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+    </div>
+
+  </div>
+
+<div class="section" id="section2">
+    <div class="intro">
+        <h1>Got to think of more things to add</h1>
+        <p>This plugin is pretty awesome</p>
+        <p> :) </p>
+    </div>
+</div>
+
+    <div class="section fp-auto-height" id="section3">
+    <div class="footer">
+      <br>
+        <h1>Created by Martin Viidik @ 2016</h3>
+        <p>Created for User Interfaces of Web Applications course</p>
+        <p>fullPage.js by Álvaro Trigo</p>
+    </div>
+  </div>
+</div>

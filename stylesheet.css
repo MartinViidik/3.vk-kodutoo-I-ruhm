@@ -21,10 +21,15 @@ strong{
 
 h1,h2{
 	font-weight: normal;
+	text-align: center;
 	font-size: 100%;
 	margin:0;
 	padding:0;
 	color:#444;
+}
+
+p{
+	text-align: center;
 }
 
 
@@ -134,13 +139,11 @@ p{
 
 #section1 h1{
 	font-size: 300%;
-	margin-left:-550px;
 	margin-top: -150px;
 }
 
 #section1 p{
 	font-size:125%;
-	margin-left:-550px;
 	margin-top: 35px;
 }
 
@@ -197,6 +200,7 @@ p{
 
 }
 
+
 /* Section 3
 * --------------------------------------- */
 #section3 {
@@ -205,14 +209,12 @@ p{
 #section3 h1{
 	color:#D0D0D0;
 	font-size:150%;
-	margin-left:100px;
-	text-align:justify;
+	text-align:center;
 }
 #section3 p{
 	color:#E0E0E0;
 	font-size:120%;
-	margin-left:100px;
-	text-align:justify;
+	text-align:center;
 }
 
 /* Sections
@@ -231,7 +233,7 @@ p{
 }
 .intro p{
 	width: 50%;
-	margin: 0 auto;
 	font-size: 1.5em;
+	text-align: center;
 
 }
